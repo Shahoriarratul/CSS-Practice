@@ -9,4 +9,5 @@
   color: aqua;
 }
 .cross-line {
+  text-decoration-line: line-through;
 }

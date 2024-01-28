@@ -1,0 +1,16 @@
+* {
+  box-sizing: border-box;
+}
+
+.btn {
+  border: 1px solid hsl(0, 0%, 70%);
+  outline: none;
+  font-size: inherit;
+  padding: 0.5em;
+  margin: 0.25em;
+}
+.btn.default:hover {
+  border-color: hsl(200, 100%, 40%);
+
+  box-shadow: 0 0 5px 0 hsl(200, 100%, 40%);
+}
